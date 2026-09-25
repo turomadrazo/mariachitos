@@ -1,0 +1,382 @@
+/* --------------------------------
+   CONFIGURACIÓN GENERAL
+-------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fffaf1;
+    color: #18264d;
+}
+
+
+/* --------------------------------
+   HEADER
+-------------------------------- */
+
+header {
+    height: 80px;
+    padding: 0 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #14275a;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #18264d;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f47b20;
+}
+
+
+/* --------------------------------
+   HERO
+-------------------------------- */
+
+.hero {
+    min-height: 600px;
+
+    padding: 70px 8%;
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff3d5,
+            #e6f5ff
+        );
+}
+
+.hero-texto {
+    width: 50%;
+}
+
+.etiqueta {
+    display: inline-block;
+
+    margin-bottom: 20px;
+    padding: 8px 15px;
+
+    background: #ffd768;
+    border-radius: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    margin-bottom: 25px;
+
+    font-size: 58px;
+    line-height: 1.05;
+
+    color: #14275a;
+}
+
+.hero p {
+    max-width: 600px;
+
+    margin-bottom: 35px;
+
+    font-size: 18px;
+    line-height: 1.7;
+
+    color: #4a5575;
+}
+
+.boton {
+    display: inline-block;
+
+    padding: 15px 25px;
+
+    border-radius: 30px;
+
+    background: #f47b20;
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background: #d96313;
+}
+
+
+/* --------------------------------
+   IMAGEN PRINCIPAL
+-------------------------------- */
+
+.hero-imagen {
+    width: 50%;
+}
+
+.placeholder {
+    height: 420px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 3px dashed #91b3d7;
+    border-radius: 30px;
+
+    background: rgba(255,255,255,0.5);
+
+    color: #6881a6;
+    font-weight: bold;
+}
+
+
+/* --------------------------------
+   SECCIONES
+-------------------------------- */
+
+.seccion {
+    padding: 90px 8%;
+
+    text-align: center;
+}
+
+.seccion h2,
+.personajes h2,
+.escuelas h2 {
+    margin-bottom: 15px;
+
+    font-size: 40px;
+    color: #14275a;
+}
+
+.subtitulo {
+    margin-bottom: 50px;
+
+    color: #68718a;
+}
+
+
+/* --------------------------------
+   TARJETAS
+-------------------------------- */
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.tarjeta {
+    width: 30%;
+    min-height: 250px;
+
+    padding: 35px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.08);
+}
+
+.numero {
+    width: 45px;
+    height: 45px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #f47b20;
+    color: white;
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tarjeta h3 {
+    margin-bottom: 15px;
+
+    font-size: 25px;
+}
+
+.tarjeta p {
+    line-height: 1.6;
+    color: #667085;
+}
+
+
+/* --------------------------------
+   PERSONAJES
+-------------------------------- */
+
+.personajes {
+    padding: 90px 8%;
+
+    text-align: center;
+
+    background: #fff2d7;
+}
+
+.personajes > p {
+    margin-bottom: 40px;
+
+    color: #68718a;
+}
+
+.lista-personajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.lista-personajes div {
+    width: 150px;
+
+    padding: 30px 15px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+}
+
+.lista-personajes span {
+    font-size: 14px;
+    font-weight: normal;
+
+    color: #7c8498;
+}
+
+
+/* --------------------------------
+   ESCUELAS
+-------------------------------- */
+
+.escuelas {
+    padding: 100px 8%;
+
+    text-align: center;
+
+    background: #14275a;
+    color: white;
+}
+
+.escuelas h2 {
+    color: white;
+}
+
+.escuelas p {
+    max-width: 700px;
+
+    margin: 0 auto 35px;
+
+    line-height: 1.7;
+
+    color: #dce4f8;
+}
+
+.boton-claro {
+    background: #f7b733;
+    color: #14275a;
+}
+
+
+/* --------------------------------
+   FOOTER
+-------------------------------- */
+
+footer {
+    padding: 35px 8%;
+
+    display: flex;
+    justify-content: space-between;
+
+    background: #0d1938;
+    color: white;
+
+    font-size: 14px;
+}
+
+
+/* --------------------------------
+   RESPONSIVE
+-------------------------------- */
+
+@media (max-width: 800px) {
+
+    header {
+        height: auto;
+
+        padding: 25px;
+
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-texto,
+    .hero-imagen {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .tarjetas {
+        flex-direction: column;
+    }
+
+    .tarjeta {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 10px;
+
+        text-align: center;
+    }
+}
