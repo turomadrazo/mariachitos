@@ -11,50 +11,90 @@
 
 <body>
 
-    <!-- ENCABEZADO -->
-    <header>
-        <div class="logo">
-            Academia Mariachitos
-        </div>
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
 
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#programa">Programa</a>
-            <a href="#personajes">Personajes</a>
-            <a href="#escuelas">Para escuelas</a>
-        </nav>
-    </header>
-
-
-    <!-- HERO -->
     <section class="hero" id="inicio">
 
-        <div class="hero-texto">
+        <header class="header">
 
-            <span class="etiqueta">Aprende música jugando</span>
-
-            <h1>
-                Descubre la música.<br>
-                Conoce tus raíces.
-            </h1>
-
-            <p>
-                Academia Mariachitos es una plataforma educativa
-                para niños de preescolar y primaria que introduce
-                los principios de la música a través de videos,
-                juegos y personajes.
-            </p>
-
-            <a href="#programa" class="boton">
-                Conoce el programa
+            <a href="#inicio" class="logo">
+                <span class="logo-small">ACADEMIA</span>
+                <span class="logo-main">Mariachitos</span>
             </a>
 
-        </div>
+            <nav>
+                <a href="#inicio" class="activo">Inicio</a>
+                <a href="#programa">Programa</a>
+                <a href="#personajes">Personajes</a>
+                <a href="#escuelas">Para escuelas</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
 
-        <div class="hero-imagen">
+            <a href="#contacto" class="btn btn-header">
+                Solicita información →
+            </a>
 
-            <div class="placeholder">
-                Imagen de los Mariachitos
+        </header>
+
+
+        <div class="hero-contenido">
+
+            <div class="hero-texto">
+
+                <h1>
+                    Descubre<br>
+                    la música.
+                </h1>
+
+                <h2>
+                    Conoce tus raíces.<br>
+                    Aprende jugando.
+                </h2>
+
+                <p>
+                    Academia Mariachitos es una plataforma educativa
+                    que introduce a niños de preescolar y primaria al
+                    mundo de la música a través de personajes, juegos,
+                    videos y actividades inspiradas en la cultura mexicana.
+                </p>
+
+                <div class="hero-botones">
+
+                    <a href="#programa" class="btn">
+                        Conoce el programa →
+                    </a>
+
+                    <a href="#funciona" class="btn btn-blanco">
+                        ▶ Ver cómo funciona
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-imagen">
+
+                <!--
+                    AQUÍ DESPUÉS PONEMOS LA IMAGEN REAL
+
+                    Ejemplo:
+                    <img src="img/mariachitos-hero.png"
+                         alt="Personajes de Academia Mariachitos">
+                -->
+
+                <div class="placeholder-hero">
+
+                    <div class="nota nota-1">♫</div>
+                    <div class="nota nota-2">♪</div>
+                    <div class="nota nota-3">♫</div>
+
+                    <span>Imagen principal de los Mariachitos</span>
+
+                </div>
+
             </div>
 
         </div>
@@ -62,50 +102,88 @@
     </section>
 
 
-    <!-- COMO FUNCIONA -->
-    <section class="seccion" id="programa">
+    <!-- =====================================================
+         CÓMO FUNCIONA
+    ====================================================== -->
 
-        <h2>¿Cómo funciona?</h2>
+    <section class="funciona seccion" id="funciona">
 
-        <p class="subtitulo">
-            Una metodología sencilla para aprender paso a paso.
-        </p>
+        <div class="contenedor">
 
-        <div class="tarjetas">
+            <div class="titulo-seccion">
 
-            <div class="tarjeta">
-                <div class="numero">1</div>
-
-                <h3>Aprende</h3>
+                <h2>¿Cómo funciona?</h2>
 
                 <p>
-                    Videos cortos que presentan los conceptos
-                    musicales de una forma sencilla y divertida.
+                    Un aprendizaje musical divertido y estructurado.
                 </p>
+
             </div>
 
 
-            <div class="tarjeta">
-                <div class="numero">2</div>
+            <div class="pasos">
 
-                <h3>Practica</h3>
+                <article class="paso paso-aprende">
 
-                <p>
-                    Juegos y actividades que permiten reforzar
-                    lo aprendido.
-                </p>
-            </div>
+                    <span class="numero">1</span>
+
+                    <h3>Aprende</h3>
+
+                    <div class="icono-grande">▶</div>
+
+                    <p>
+                        Videos cortos y divertidos.
+                    </p>
+
+                </article>
 
 
-            <div class="tarjeta">
-                <div class="numero">3</div>
+                <article class="paso paso-practica">
 
-                <h3>Demuestra</h3>
+                    <span class="numero">2</span>
 
-                <p>
-                    Evaluaciones e insignias para reconocer
-                    el progreso de cada alumno.
-                </p>
+                    <h3>Practica</h3>
+
+                    <div class="icono-grande">🎮</div>
+
+                    <p>
+                        Juegos y actividades.
+                    </p>
+
+                </article>
+
+
+                <article class="paso paso-demuestra">
+
+                    <span class="numero">3</span>
+
+                    <h3>Demuestra</h3>
+
+                    <div class="icono-grande">🏅</div>
+
+                    <p>
+                        Evaluaciones e insignias.
+                    </p>
+
+                </article>
+
+
+                <div class="acompanamiento">
+
+                    <p>
+                        Paso a paso,<br>
+                        los personajes acompañan<br>
+                        cada aventura.
+                    </p>
+
+                    <span class="flecha">↘</span>
+
+                    <div class="mascota-placeholder">
+                        Personaje
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
@@ -113,46 +191,316 @@
     </section>
 
 
-    <!-- PERSONAJES -->
-    <section class="personajes" id="personajes">
+    <!-- =====================================================
+         PERSONAJES
+    ====================================================== -->
 
-        <h2>Conoce a los Mariachitos</h2>
+    <section class="personajes seccion" id="personajes">
 
-        <p>
-            Seis personajes acompañan a los niños durante
-            su aventura musical.
-        </p>
+        <div class="contenedor">
 
-        <div class="lista-personajes">
+            <div class="titulo-seccion">
 
-            <div>Tonito<br><span>Violín</span></div>
-            <div>Don Ger<br><span>Guitarra</span></div>
-            <div>Vihu<br><span>Vihuela</span></div>
-            <div>Don Raulo<br><span>Trompeta</span></div>
-            <div>Miss Angie<br><span>Arpa</span></div>
-            <div>Don Bombo<br><span>Guitarrón</span></div>
+                <h2>Los Mariachitos</h2>
+
+                <p>
+                    Seis grandes amigos que hacen de la música una aventura.
+                </p>
+
+            </div>
+
+
+            <div class="grid-personajes">
+
+                <article class="personaje">
+
+                    <div class="foto-personaje">
+                        Tonito
+                    </div>
+
+                    <h3>Tonito</h3>
+                    <p>Violín</p>
+
+                </article>
+
+
+                <article class="personaje">
+
+                    <div class="foto-personaje">
+                        Don Ger
+                    </div>
+
+                    <h3>Don Ger</h3>
+                    <p>Guitarra</p>
+
+                </article>
+
+
+                <article class="personaje">
+
+                    <div class="foto-personaje">
+                        Vihu
+                    </div>
+
+                    <h3>Vihu</h3>
+                    <p>Vihuela</p>
+
+                </article>
+
+
+                <article class="personaje">
+
+                    <div class="foto-personaje">
+                        Don Raulo
+                    </div>
+
+                    <h3>Don Raulo</h3>
+                    <p>Trompeta</p>
+
+                </article>
+
+
+                <article class="personaje">
+
+                    <div class="foto-personaje">
+                        Miss Angie
+                    </div>
+
+                    <h3>Miss Angie</h3>
+                    <p>Arpa</p>
+
+                </article>
+
+
+                <article class="personaje">
+
+                    <div class="foto-personaje">
+                        Don Bombo
+                    </div>
+
+                    <h3>Don Bombo</h3>
+                    <p>Guitarrón</p>
+
+                </article>
+
+            </div>
 
         </div>
 
     </section>
 
 
-    <!-- ESCUELAS -->
+    <!-- =====================================================
+         PROGRAMA
+    ====================================================== -->
+
+    <section class="programa seccion" id="programa">
+
+        <div class="contenedor">
+
+            <div class="titulo-seccion">
+
+                <h2>Programa educativo</h2>
+
+                <p>
+                    3 niveles · 6 módulos por nivel · Metodología clara y divertida
+                </p>
+
+            </div>
+
+
+            <div class="programa-grid">
+
+
+                <article class="nivel-principal">
+
+                    <span>Nivel 1</span>
+
+                    <h3>
+                        Descubriendo<br>
+                        el sonido
+                    </h3>
+
+                    <div class="nivel-imagen">
+                        ♫
+                    </div>
+
+                </article>
+
+
+                <article class="modulo modulo-activo">
+
+                    <span>Módulo 1</span>
+
+                    <h3>
+                        El sonido<br>
+                        y el silencio
+                    </h3>
+
+                    <div class="modulo-icono">
+                        🎵
+                    </div>
+
+                </article>
+
+
+                <article class="modulo">
+
+                    <span>Módulo 2</span>
+
+                    <h3>
+                        El ritmo<br>
+                        en todas partes
+                    </h3>
+
+                    <div class="candado">🔒</div>
+
+                </article>
+
+
+                <article class="modulo">
+
+                    <span>Módulo 3</span>
+
+                    <h3>
+                        Los<br>
+                        instrumentos
+                    </h3>
+
+                    <div class="candado">🔒</div>
+
+                </article>
+
+
+                <article class="modulo">
+
+                    <span>Módulo 4</span>
+
+                    <h3>
+                        Escucha<br>
+                        y crea
+                    </h3>
+
+                    <div class="candado">🔒</div>
+
+                </article>
+
+
+                <article class="modulo">
+
+                    <span>Módulo 5</span>
+
+                    <h3>
+                        La música<br>
+                        mexicana
+                    </h3>
+
+                    <div class="candado">🔒</div>
+
+                </article>
+
+
+                <article class="modulo">
+
+                    <span>Módulo 6</span>
+
+                    <h3>
+                        Nuestra<br>
+                        presentación
+                    </h3>
+
+                    <div class="candado">🔒</div>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         PARA ESCUELAS
+    ====================================================== -->
+
     <section class="escuelas" id="escuelas">
 
-        <div>
+        <div class="contenedor escuelas-grid">
 
-            <h2>Academia Mariachitos para escuelas</h2>
 
-            <p>
-                Un programa educativo que puede complementar
-                las clases de música y cultura mediante
-                contenidos digitales, actividades y seguimiento
-                del progreso de los alumnos.
-            </p>
+            <div class="escuelas-texto">
 
-            <a href="#" class="boton boton-claro">
-                Solicitar información
+                <h2>Para escuelas</h2>
+
+                <p class="descripcion-escuela">
+                    Un programa digital de iniciación musical que se integra
+                    como complemento a clases de música, cultura o actividades
+                    extracurriculares.
+                </p>
+
+
+                <div class="beneficios">
+
+                    <div>● Seguimiento de progreso</div>
+                    <div>● Panel para profesores</div>
+
+                    <div>● Contenido por niveles</div>
+                    <div>● Implementación por grupos</div>
+
+                    <div>● Actividades para niños</div>
+                    <div>● Licencias para instituciones</div>
+
+                </div>
+
+            </div>
+
+
+            <div class="escuelas-imagen">
+
+                <div class="tablet-placeholder">
+                    Plataforma<br>
+                    Mariachitos
+                </div>
+
+                <div class="globo">
+                    Música que inspira<br>
+                    grandes historias.
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CTA
+    ====================================================== -->
+
+    <section class="cta" id="contacto">
+
+        <div class="contenedor cta-contenido">
+
+            <div>
+
+                <h2>
+                    ¿Quieres llevar Academia Mariachitos<br>
+                    a tu escuela?
+                </h2>
+
+                <p>
+                    Contáctanos y conoce cómo implementar
+                    el programa en tu institución.
+                </p>
+
+            </div>
+
+            <a href="mailto:contacto@mariachitos.com" class="btn btn-grande">
+                Solicitar información →
             </a>
 
         </div>
@@ -160,16 +508,37 @@
     </section>
 
 
-    <!-- FOOTER -->
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
     <footer>
 
-        <p>
-            Academia Mariachitos © 2026
-        </p>
+        <div class="contenedor footer-contenido">
 
-        <p>
-            Música · Cultura · Educación
-        </p>
+            <div class="footer-logo">
+                Academia Mariachitos
+            </div>
+
+
+            <nav class="footer-nav">
+
+                <a href="#inicio">Inicio</a>
+                <a href="#programa">Programa</a>
+                <a href="#personajes">Personajes</a>
+                <a href="#escuelas">Para escuelas</a>
+                <a href="#contacto">Contacto</a>
+
+            </nav>
+
+
+            <div class="footer-frase">
+
+                Música · Cultura · Educación · Futuro
+
+            </div>
+
+        </div>
 
     </footer>
 
